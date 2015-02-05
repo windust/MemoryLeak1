@@ -14,7 +14,7 @@ public class MehLoggerService {
                 Thread myThread = new Thread(r);
                 myThread.setName("Logging Thread");
                 myThread.setDaemon(true);
-//                myThread.setPriority(Thread.MIN_PRIORITY);
+                myThread.setPriority(Thread.MIN_PRIORITY);
                 return myThread;
             }
         });

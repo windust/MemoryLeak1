@@ -16,7 +16,7 @@ public class MainPanel extends Application {
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader(ClassLoader.getSystemClassLoader().getResource("MainPanel.fxml"));
         Parent root = loader.load();
-        stage.setTitle("Meetup Raffle");
+        stage.setTitle("Some App");
         stage.setScene(new Scene(root, 800, 600));
         //stage.getOwner().setX();
         controller = loader.getController();
