@@ -99,7 +99,6 @@ public class LolCatServer {
 
         public void sendMessage(Object message) throws IOException {
             oos.writeObject(message);
-            oos.reset();
         }
     }
 }
